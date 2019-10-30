@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".screen.TitleFragment">
+        tools:context=".screen.title.TitleFragment">
 
         <TextView
             android:id="@+id/get_ready_text"

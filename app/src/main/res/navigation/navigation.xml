@@ -5,6 +5,14 @@
     app:startDestination="@id/titleFragment">
     <fragment
         android:id="@+id/titleFragment"
-        android:name="ilgulee.com.tictactoe.screen.TitleFragment"
-        android:label="TitleFragment" />
+        android:name="ilgulee.com.tictactoe.screen.title.TitleFragment"
+        android:label="TitleFragment">
+        <action
+            android:id="@+id/action_titleFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="ilgulee.com.tictactoe.screen.game.GameFragment"
+        android:label="GameFragment" />
 </navigation>
